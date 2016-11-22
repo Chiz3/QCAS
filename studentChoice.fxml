@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="groupproject.StudentChoiceController">
+   <children>
+      <ImageView fitHeight="88.0" fitWidth="237.0">
+         <image>
+            <Image url="@../../../../Desktop/banners/carnegie_mellon_university_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="430.0" layoutX="171.0">
+         <image>
+            <Image url="@../../../../Desktop/banners/WechatIMG1.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="186.0" layoutY="117.0" text="Choose preferred difficulty">
+         <font>
+            <Font name="System Font" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="149.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="84.0" text="EASY" />
+      <Button layoutX="366.0" layoutY="276.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="84.0" text="MIX" />
+      <Button layoutX="366.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="84.0" text="MEDIUM" />
+      <Button layoutX="149.0" layoutY="276.0" mnemonicParsing="false" text="DIFFICULT" />
+   </children>
+</AnchorPane>

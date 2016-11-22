@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupproject.LoginController">
+    <children>
+      <Button fx:id="toRegisterButton" layoutX="196.0" layoutY="330.0" mnemonicParsing="false" onAction="#toRegister" prefHeight="33.0" prefWidth="84.0" text="Register" AnchorPane.bottomAnchor="117.0" />
+        <Button fx:id="loginButton" layoutX="355.0" layoutY="330.0" onAction="#login" prefHeight="33.0" prefWidth="95.0" text="Login" AnchorPane.bottomAnchor="117.0" />
+      <Label layoutX="164.0" layoutY="211.0" prefHeight="39.0" prefWidth="117.0" text="Username" AnchorPane.bottomAnchor="230.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="findUsername" layoutX="311.0" layoutY="214.0" onAction="#findUsername" prefHeight="33.0" prefWidth="178.0" AnchorPane.bottomAnchor="233.0" />
+      <PasswordField fx:id="findPassword" layoutX="311.0" layoutY="269.0" onAction="#findPassword" prefHeight="33.0" prefWidth="178.0" AnchorPane.bottomAnchor="178.0" />
+      <Label layoutX="164.0" layoutY="270.0" prefHeight="27.0" prefWidth="106.0" text="Password" AnchorPane.bottomAnchor="183.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="88.0" fitWidth="237.0">
+         <image>
+            <Image url="@../../../../Desktop/banners/carnegie_mellon_university_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="463.0" layoutX="178.0">
+         <image>
+            <Image url="@../../../../Desktop/banners/formal%20login.jpeg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

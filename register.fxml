@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupproject.RegisterController">
+    <stylesheets>
+        <URL value="@register.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="88.0" fitWidth="237.0">
+         <image>
+            <Image url="@../../../../Desktop/banners/carnegie_mellon_university_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="436.0" layoutX="166.0">
+         <image>
+            <Image url="@../../../../Desktop/banners/formal%20register.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="172.0" layoutY="195.0" prefHeight="18.0" prefWidth="75.0" text="Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="172.0" layoutY="248.0" prefHeight="17.0" prefWidth="70.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="298.0" prefHeight="18.0" prefWidth="153.0" text="Enter Password Again">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="143.0" prefHeight="17.0" prefWidth="70.0" text="StudentID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="register" layoutX="267.0" layoutY="348.0" mnemonicParsing="false" onAction="#register" text="Register">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="setStudentID" layoutX="312.0" layoutY="139.0" onAction="#setStuentID" />
+      <TextField fx:id="setUsername" layoutX="312.0" layoutY="191.0" onAction="#setUsername" />
+      <TextField fx:id="setPassword" layoutX="312.0" layoutY="244.0" onAction="#setPassword" />
+      <TextField fx:id="checkPassword" layoutX="312.0" layoutY="294.0" onAction="#checkPassword" />
+   </children>
+</AnchorPane>
